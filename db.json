@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Kenneth Douglas",
+      "id": 3
+    },
+    {
+      "name": "Lori Stoltenberg",
+      "id": 4
+    },
+    {
+      "name": "Mrs. Ramona Stehr",
+      "id": 5
+    },
+    {
+      "name": "Tommie Cassin",
+      "id": 6
+    }
+  ],
+  "albums": [],
+  "photos": []
+}

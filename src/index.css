@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* just example value */
+  --breakpoint-*: initial;
+  --breakpoint-sm: 360px;
+  --breakpoint-md: 720px;
+  --breakpoint-lg: 1080px;
+  --breakpoint-xl: 2160px;
+  /* --breakpoint-2xl: 4320px; */
+
+  /* just example value */
+  --container-*: initial;
+  --container-sm: 360px;
+  --container-md: 720px;
+  --container-lg: 1080px;
+  --container-xl: 2160px;
+  /* --container-2xl: 4320px; */
+
+  --animate-shimmer: shimmer 1.5s infinite;
+
+  @keyframes shimmer {
+    100% {
+      transform: translateX(200%);
+    }
+  }
+}
