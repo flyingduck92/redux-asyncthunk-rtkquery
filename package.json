@@ -12,7 +12,6 @@
     "axios": "^1.13.5",
     "classnames": "^2.3.2",
     "json-server": "^0.17.0",
-    "parcel": "^2.16.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "4.6.0",
@@ -20,9 +19,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "parcel --port 3000",
+    "dev": "vite",
     "dev:server": "json-server --watch db.json --port 3005",
-    "build": "parcel build",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "jest",
     "lint": "eslint src"
   },
@@ -45,8 +45,8 @@
     ]
   },
   "devDependencies": {
-    "@parcel/packager-raw-url": "^2.14.4",
-    "@parcel/transformer-webmanifest": "^2.16.4",
+    "@tailwindcss/vite": "^4.2.1",
+    "@vitejs/plugin-react": "^4.7.0",
     "autoprefixer": "^10.4.12",
     "babel-jest": "^27.4.2",
     "babel-preset-react-app": "^10.0.1",
@@ -56,7 +56,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.3",
     "jest-watch-typeahead": "^1.0.0",
-    "tailwindcss": "^4.1.4"
-  },
-  "source": "public/index.html"
+    "tailwindcss": "^4.2.1",
+    "vite": "^7.3.1"
+  }
 }
