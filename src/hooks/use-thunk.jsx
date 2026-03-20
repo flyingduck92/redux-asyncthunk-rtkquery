@@ -8,7 +8,8 @@ export function useThunk(thunk) {
 
   const runThunk = useCallback(
     (arg) => {
-      setIsLoading(true)
+      setIsLoading(true) // set loading each attempt
+      setError(null) // reset error each attempt
       dispatch(thunk(arg))
         .unwrap()
         .catch((err) => setError(err))

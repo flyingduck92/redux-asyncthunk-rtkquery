@@ -1,22 +1,33 @@
 {
   "users": [
     {
-      "name": "Nicolas Franey",
-      "id": 4
+      "name": "Aubrey Koch Jr.",
+      "id": 5
     },
     {
-      "name": "Ms. Phillip Mitchell",
+      "name": "Oliver Buckridge",
+      "id": 6
+    },
+    {
+      "name": "Mr. Darrel Langosh DDS",
+      "id": 7
+    },
+    {
+      "name": "David Haag",
       "id": 8
-    },
-    {
-      "name": "Gilbert Brekke",
-      "id": 13
-    },
-    {
-      "name": "Danielle O'Reilly",
-      "id": 14
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "userId": 5,
+      "title": "Small Soft Tuna",
+      "id": 14
+    },
+    {
+      "userId": 5,
+      "title": "Rustic Soft Chips",
+      "id": 15
+    }
+  ],
   "photos": []
 }
