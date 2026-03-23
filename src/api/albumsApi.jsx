@@ -12,7 +12,7 @@ const albumsApi = createApi({
     baseUrl: 'http://localhost:3005',
     fetchFn: async (...args) => {
       // REMOVE FOR PRODUCTION
-      await pause(1000)
+      await pause(350)
 
       return fetch(...args)
     }
